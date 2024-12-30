@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C#</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        header {
+            background: #192440;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header p{
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        main {
+            max-width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .project {
+            padding: 15px;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .project:hover {
+            background-color: #f9f9f9;
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .project h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .project a {
+            text-decoration: none;
+            color: #192440;
+            font-weight: bold;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        .project-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #192440;
+            color: white;
+        }
+        .badge {
+            background-color: #192440; 
+            color: white; 
+            padding: 5px 10px; 
+            border-radius: 20px; 
+            font-size: 0.8em; 
+            margin-right: 5px; 
+            display: inline-block; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top C# Projects</h1>
+        <p>Click on a project title to view the details.</p>
+    </header>
+    <main>
+        
+        <div class="project">
+           <h2><a href="#" target="_blank">Smart Pointer Implementation</a></h2>
+           <div class="project-description">
+               <p>Demonstrates a simple smart pointer using generics for resource management.</p>
+               <div class="badges">
+                   <span class="badge">Memory Management</span>
+                   <span class="badge">Generics</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Multithreading with Task</a></h2>
+           <div class="project-description">
+               <p>Shows how to create and manage tasks for asynchronous programming.</p>
+               <div class="badges">
+                   <span class="badge">Multithreading</span>
+                   <span class="badge">Asynchronous Programming</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">LINQ for Data Manipulation</a></h2>
+           <div class="project-description">
+               <p>Utilizes LINQ to filter and sort a collection of numbers efficiently.</p>
+               <div class="badges">
+                   <span class="badge">LINQ</span>
+                   <span class="badge">Data Manipulation</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Custom Exception Handling</a></h2>
+           <div class="project-description">
+               <p>Illustrates the creation and use of custom exceptions in C#.</p>
+               <div class="badges">
+                   <span class="badge">Exception Handling</span>
+                   <span class="badge">Error Management</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Using IEnumerable for Lazy Evaluation</a></h2>
+           <div class="project-description">
+               <p>Demonstrates lazy evaluation using IEnumerable and yield return.</p>
+               <div class="badges">
+                   <span class="badge">Lazy Evaluation</span>
+                   <span class="badge">IEnumerable</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Implementing the Observer Pattern</a></h2>
+           <div class="project-description">
+               <p>Shows how to implement the observer design pattern for event handling.</p>
+               <div class="badges">
+                   <span class="badge">Design Patterns</span>
+                   <span class="badge">Observer Pattern</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Dependency Injection Example</a></h2>
+           <div class="project-description">
+               <p>Demonstrates a simple dependency injection setup for managing services.</p>
+               <div class="badges">
+                   <span class="badge">Dependency Injection</span>
+                   <span class="badge">Service Management</span>
+               </div>
+           </div>
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Asynchronous File Reading</a></h2>
+           <div class="project-description">
+               <p>Demonstrates asynchronous file reading using async and await keywords.</p>
+               <div class="badges">
+                   <span class="badge">Asynchronous I/O</span> 
+                   <span class="badge">File Handling</span> 
+               </div>  
+           </div>  
+       </div>
+
+       <div class="project">
+           <h2><a href="#" target="_blank">Building a Simple REST API with ASP.NET Core</a></h2>
+           <div class="project-description">
+               <p>A simple REST API implementation using ASP.NET Core framework.</p>
+               <div class="badges">
+                   <span class="badge">ASP.NET Core</span> 
+                   <span class="badge">Web API</span> 
+               </div>  
+           </div>  
+       </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer> 
+     	<p>&copy; 2024 Your Name | All Rights Reserved.</p> 
+    </footer>
+
+</body> 
+</html> 
